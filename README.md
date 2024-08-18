@@ -20,7 +20,7 @@ git switch <first_name>_<last_name>
 3. (Optional but HIGHLY RECOMMENDED) Create a virtual environment and activate your virtual environment
 4. Install the required packages into your project. You are free to install any other packages to aid you with your project.
 ```
-pip install asyncio pygame
+pip install asyncio pygame numpy
 ```
 
 ## Requirements
