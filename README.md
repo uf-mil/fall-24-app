@@ -27,7 +27,7 @@ pip install asyncio pygame
 We are looking for two files: ```classes.py``` and ```sim.py```. 
 
 ### classes.py
-Three classes must be clearly defined and documented in this file.
+Three classes must be clearly defined and commented in this file.
 - Topic: _A topic should be initialized with a string (the name of the topic). In addition it should hold an array of subscriber objects whose callback function is called every time data is published to the topic_
    - Attributes
      - name : string
@@ -49,8 +49,15 @@ Three classes must be clearly defined and documented in this file.
     - _async_ publish(data)
 
 ### sim.py
-For your simulation, we will provide you with the pygame loop to...
+For your simulation, we will provide you with the pygame loop to test out your code. Your assignment will require you to fill in the ```main()``` function with the expected mechanisms:
+- Topic "/robot/position"
+
+  - Update topic by publishing the next movements of the robot
+
+- Utilize Topic "/robot/camera" to guide robot movement
 
 _You may create any necessary helper files, classes, and methods if necessary._
 
+### Evaluation
 
+We will provide you with ONE sample course to test your code, but upon submission your code will be tested against a number of hidden test cases to evaluate the robustness of your path following algorithm (in addition to the aforementioned conditions for each file).
