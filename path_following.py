@@ -1,4 +1,4 @@
-from classes import Topic
+from pubsub import Topic
 
 
 class PathFollowing:

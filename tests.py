@@ -5,9 +5,9 @@ from collections.abc import Callable
 import numpy as np
 import pygame
 
-from classes import Publisher, Subscriber, Topic
 from constants import BLUE, HEIGHT, ORANGE, WIDTH
 from path_following import PathFollowing
+from pubsub import Publisher, Subscriber, Topic
 
 pygame.init()
 pygame.display.set_caption("MIL's next big robot project")
